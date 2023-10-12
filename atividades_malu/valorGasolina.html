@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const dinheiro = parseFloat(prompt("Digite quanto dinheiro você tem:"));
+        const precoLitro = 5.0;
+        const litros = dinheiro / precoLitro;
+        const km = litros * 20;
+
+        alert("Com R$" + dinheiro.toFixed(2) + ", é possível comprar " + litros.toFixed(2) + " litros de combustível.");
+        alert("Com " + litros.toFixed(2) + " litros de combustível, o carro consegue andar " + km.toFixed(2) + " km.");
+    </script>
+</body>
+
+</html>

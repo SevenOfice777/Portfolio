@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.fundo_body {
+    background-image:  url(./fundo.jpg);
+    background-color: rgba(15, 15, 15, 0.795);
+}
+
+body {
+    transition: .5s;
+    background-attachment: fixed;
+    background-blend-mode: darken, luminosity;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+header {
+    width: 100vw;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    background-image: linear-gradient(120deg, #000, rgb(41, 41, 41));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header * {
+    font-family: 'titleFont';
+
+}
+
+header .title {
+    font-size: 25pt;
+}
+
+header nav * {
+    font-size: 15pt;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+header nav *:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.realce {
+    color: rgb(180, 180, 180);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    left: 0;
+    background-image: linear-gradient(120deg, #000, rgb(41, 41, 41));
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'titleFont';
+    padding: 20px;
+}
+
+.container_apr {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+
+}
+
+.area_principal h1 {
+    font-family: 'Tilt Neon', cursive;
+    margin: 10px 0px;
+    font-size: 50pt;
+}
+
+.area_principal {
+    width: 700px;
+}
+
+.area_principal p {
+    font-family: "Tlit Neon", cursive;
+    width: 100%;
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+
+
+.img_add>img {
+    width: 500px;
+}
+
+.area_principal button {
+    padding: 15px;
+    width: 100%;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 15pt;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(57, 57, 57);
+}
+
+.area_principal button:hover {
+    background-color: rgb(114, 114, 114);
+    color: rgb(255, 251, 251);
+    border: none;
+}
+
+
+
+
+.container_projetos {
+    width: 100vw;
+    box-shadow: inset 1px 1px 10px 1px black;
+    height: 90vh;
+    background-color: rgb(59, 59, 59);
+    
+}
+
+
+
+
+.container_sobre {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .links-container a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    margin: 10px;
+    width: 300px;
+    font-family:'Tilt Neon', cursive;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .links-container a:hover {
+    background-color: #555;
+  }

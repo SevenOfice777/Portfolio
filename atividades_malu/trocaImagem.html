@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exibir Hora do Sistema</title>
+</head>
+<body>
+	<h1>Exibir Hora do Sistema</h1>
+	<p>Clique no botão abaixo para exibir a hora atual do sistema:</p>
+	<button onclick="exibirHora()">Exibir Hora</button>
+	<p id="horaAtual"></p>
+
+	<script>
+		function exibirHora() {
+			const data = new Date();
+			const hora = data.getHours();
+			const minuto = data.getMinutes();
+			const segundo = data.getSeconds();
+
+			document.getElementById("horaAtual").innerHTML = "A hora atual é " + hora + ":" + minuto + ":" + segundo;
+		}
+	</script>
+</body>
+</html>
+
+
+
+

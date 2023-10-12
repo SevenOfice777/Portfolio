@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfólio de Atividades | Atividades em Sala </title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: #0000009d url(../PORTFOLIO/fundo_2.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+        }
+
+        header {
+            width: 100vw;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            left: 0;
+            background-image: linear-gradient(120deg, #000, rgb(41, 41, 41));
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+        header * {
+            font-family: 'titleFont';
+
+        }
+
+        header .title {
+            font-size: 25pt;
+        }
+
+        header nav * {
+            font-size: 15pt;
+            text-decoration: none;
+            margin: 0px 10px;
+        }
+
+        header nav *:hover {
+            border-bottom: 1px solid white;
+        }
+
+
+        .realce {
+            color: rgb(180, 180, 180);
+        }
+
+        .card_activities {
+            width: 50%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #3f3f3f;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .links-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            font-family: 'Tilt Neon', cursive;
+        }
+
+        .links-container a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            font-size: 24px;
+            margin: 30px;
+            width: 300px;
+            font-family: 'Tilt Neon', cursive;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .links-container a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span class="title">Port<span class="realce">fólio</span></span>
+        <nav>
+            <a href="./index.html">Inicio</a>
+
+        </nav>
+    </header>
+    <div class="container">
+
+        <div class="card_activities">
+            <h1> Exercicios em HTML CSS E JAVASCRIPT</h1>
+            <div class="links-container">
+                <a href="./atividades_malu/valorGasolina.html">Valor Da Gasolina</a>
+                <a href="./atividades_malu/trocaImagem.html">Atividade Troca Imagem</a>
+                <a href="./atividades_malu/calculaTemperaturaFarCel.html">Temperatura</a>
+                <a href="./atividades_malu/areaCirculo.html">Area Do Círculo</a>
+                <a href="./atividades_malu/HOSPITAL/index.html">Hospital De Base</a>
+                <a href="./atividades_malu/calculadoraIMC.html">Calculadora IMC</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

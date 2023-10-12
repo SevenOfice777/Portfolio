@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300;1,500;1,700&display=swap');
+
+
+:root {
+    --font1:  'Edu VIC WA NT Beginner', cursive;
+    --font2: 'Ubuntu', sans-serif;
+    --font3: 'Bebas Neue' , cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:white;
+}
+
+body {
+    overflow-x: hidden;
+    width:100vw;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.832);
+}
+
+header {
+   background: rgb(15,20,60);
+   position:fixed;
+   display:flex;
+   width:100vw;
+   justify-content: space-around;
+   align-items:center;
+   padding:5px 0px 5px 0px;
+}
+
+header > nav {
+   display:flex;
+   gap:30px;
+   font:1rem var(--font2);
+}
+
+header a {
+   padding:5px;   
+}
+header > nav > a:hover {
+   color:rgb(30,100,260);
+   cursor:pointer;
+}
+
+.imagem-logo {
+   padding:5px;
+   width:10%;
+   height:10%;
+}
+
+.imagem-logo > img {
+   width:100%;
+   border-radius:10px;
+}
+
+/* -- header -- */
+
+.contain-all {
+   width:100vw;
+   height:100vh;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   background: rgb(15, 20, 60);
+}
+
+main {
+   width:70%;
+   height:70%;
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+}
+
+.content {
+   width:100%;
+   height:100%;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   column-gap:30px;
+}
+
+.content h1 {
+   width:80%;
+   text-align:center;
+   font:1.5em var(--font2);
+   color:rgb(30,100,260);
+   margin-bottom:10px;
+}
+
+
+.card{
+   display:flex;
+   flex-direction:column;
+}
+
+
+.card {
+   background: rgba(0, 10, 20, 0.6);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   gap: 5px;
+   border-radius: 10px;
+   font: 1em var(--font2);
+}
+
+.card input {
+   width: 100%;
+   height: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   padding: 15px;
+   font: 1rem var(--font2);
+   border: 0px;
+   color: black;
+}
+
+button {
+   width: 100%;
+   border: 0px;
+   border-radius: 5px;
+   background: rgb(15, 20, 60);
+   padding: 4.6px;
+   color: lightblue;
+   font: 1rem var(--font2);
+
+}
+
+.size-image {
+   width: 250px;
+   height: 250px;
+
+}
+
+.size-image img {
+   width: 100%;
+   height: 100%;
+}
+
+#val3 {
+   width: 100%;
+   height: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   padding: 15px;
+   font: 1rem var(--font2);
+   border: 0px;
+   color: black;
+   height:6rem;
+   display:flex;
+   align-items:start;
+}
+
+div#text {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+}
+
+textarea::placeholder {
+   font: italic 0.8em 'Calibri' , sans-serif;
+   color:black;
+}
